@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B44B647-D81A-4E9E-A3A5-278A2E6AEFCD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nani</RootNamespace>
+    <AssemblyName>Nani</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="boxes.aspx" />
+    <Content Include="comments.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="controls\footer.ascx" />
+    <Content Include="controls\menu.ascx" />
+    <Content Include="images\abstract.jpg" />
+    <Content Include="images\arena.jpg" />
+    <Content Include="images\balls.jpg" />
+    <Content Include="images\border.jpg" />
+    <Content Include="images\chicken.jpg" />
+    <Content Include="images\collagen\albert.jpg" />
+    <Content Include="images\babybrain.jpg" />
+    <Content Include="images\collagen\corpuscle.jpg" />
+    <Content Include="images\collagen\enigme.JPG" />
+    <Content Include="images\collagen\eule.JPG" />
+    <Content Include="images\collagen\focus.jpg" />
+    <Content Include="images\collagen\fuchs.JPG" />
+    <Content Include="images\collagen\gingerly.jpg" />
+    <Content Include="images\collagen\glide.jpg" />
+    <Content Include="images\collagen\landei.JPG" />
+    <Content Include="images\collagen\moving.jpg" />
+    <Content Include="images\collagen\outstanding.jpg" />
+    <Content Include="images\collagen\pilze.JPG" />
+    <Content Include="images\collagen\rain.jpg" />
+    <Content Include="images\collagen\schaf_und_vase.JPG" />
+    <Content Include="images\collagen\started.jpg" />
+    <Content Include="images\collagen\steps.jpg" />
+    <Content Include="images\collagen\stroke.jpg" />
+    <Content Include="images\collagen\tub.jpg" />
+    <Content Include="images\collagen\tunnel.jpg" />
+    <Content Include="images\collagen\typer.JPG" />
+    <Content Include="images\collagen\vogeltasse.jpg" />
+    <Content Include="images\collagen\weltwald.jpg" />
+    <Content Include="images\collagen\welt_kommt.JPG" />
+    <Content Include="images\collagen\wirbelreifen.jpg" />
+    <Content Include="images\collagen\wool.JPG" />
+    <Content Include="images\collagen\moonlit.jpg" />
+    <Content Include="images\dance.jpg" />
+    <Content Include="images\gasp.jpg" />
+    <Content Include="images\hase.jpg" />
+    <Content Include="images\lamb.jpg" />
+    <Content Include="images\pieta.jpg" />
+    <Content Include="images\razor_cross.jpg" />
+    <Content Include="images\salamander2.jpg" />
+    <Content Include="images\staring.jpg" />
+    <Content Include="images\tentative.jpg" />
+    <Content Include="images\vu.jpg" />
+    <Content Include="_first_default.aspx" />
+    <Content Include="drawings.aspx" />
+    <Content Include="images\anima-animal_2.jpg" />
+    <Content Include="images\anima-animal_1.jpg" />
+    <Content Include="images\are_you_ok.jpg" />
+    <Content Include="images\blind.jpg" />
+    <Content Include="images\blind.PNG" />
+    <Content Include="images\blum-ich.jpg" />
+    <Content Include="images\brain_globe.PNG" />
+    <Content Include="images\bronze_mit_loch.jpg" />
+    <Content Include="images\crosses.jpg" />
+    <Content Include="images\dick_und_duenn.jpg" />
+    <Content Include="images\disc_globe.PNG" />
+    <Content Include="images\fishes.jpg" />
+    <Content Include="images\frau_hase.jpg" />
+    <Content Include="images\fuchs.jpg" />
+    <Content Include="images\haensel.jpg" />
+    <Content Include="images\hunde.png" />
+    <Content Include="images\kluge_lamm.PNG" />
+    <Content Include="images\knochen_mit_taenzer.jpg" />
+    <Content Include="images\kugeln.jpg" />
+    <Content Include="images\liebende.jpg" />
+    <Content Include="images\liegende.jpg" />
+    <Content Include="images\liegende_weiss.jpg" />
+    <Content Include="images\nani.jpg" />
+    <Content Include="images\nani_simonis.jpg" />
+    <Content Include="images\collagen\new\002.jpg" />
+    <Content Include="images\collagen\new\007.jpg" />
+    <Content Include="images\collagen\new\058.jpg" />
+    <Content Include="images\collagen\new\061.jpg" />
+    <Content Include="images\collagen\new\068.jpg" />
+    <Content Include="images\collagen\new\078.jpg" />
+    <Content Include="images\collagen\new\084.jpg" />
+    <Content Include="images\collagen\new\096.jpg" />
+    <Content Include="images\collagen\new\101 %282%29.jpg" />
+    <Content Include="images\collagen\new\101.jpg" />
+    <Content Include="images\collagen\new\104.jpg" />
+    <Content Include="images\collagen\new\108.jpg" />
+    <Content Include="images\collagen\new\114.jpg" />
+    <Content Include="images\collagen\new\125.jpg" />
+    <Content Include="images\collagen\new\127.jpg" />
+    <Content Include="images\collagen\new\130.jpg" />
+    <Content Include="images\collagen\new\131.jpg" />
+    <Content Include="images\collagen\new\133.jpg" />
+    <Content Include="images\collagen\new\134.jpg" />
+    <Content Include="images\collagen\new\Flowers.jpg" />
+    <Content Include="images\collagen\new\Pieta.jpg" />
+    <Content Include="images\salamander1.jpg" />
+    <Content Include="images\schreibmaschine.jpg" />
+    <Content Include="images\schreibmaschine_bunt.jpg" />
+    <Content Include="images\schwangere.jpg" />
+    <Content Include="images\skyscraper.jpg" />
+    <Content Include="images\solitude.jpg" />
+    <Content Include="images\solitude_w_text.jpg" />
+    <Content Include="images\stents.jpg" />
+    <Content Include="images\taenzering.jpg" />
+    <Content Include="images\tierskelett.jpg" />
+    <Content Include="images\umarmung.jpg" />
+    <Content Include="images\verwischtes_gesicht.jpg" />
+    <Content Include="images\voegelchen.jpg" />
+    <Content Include="images\We_are_not_afraid.jpg" />
+    <Content Include="images\zick_zack.jpg" />
+    <Content Include="images\zic_zac.PNG" />
+    <Content Include="imprint.aspx" />
+    <Content Include="living_things.aspx" />
+    <Content Include="nani.css" />
+    <Content Include="objects.aspx" />
+    <Content Include="overpaintings.aspx" />
+    <Content Include="paintings.aspx" />
+    <Content Include="sculptures.aspx" />
+    <Content Include="vitae.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="boxes.aspx.cs">
+      <DependentUpon>boxes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="boxes.aspx.designer.cs">
+      <DependentUpon>boxes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="comments.aspx.cs">
+      <DependentUpon>comments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="comments.aspx.designer.cs">
+      <DependentUpon>comments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\footer.ascx.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\footer.ascx.designer.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\menu.ascx.cs">
+      <DependentUpon>menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\menu.ascx.designer.cs">
+      <DependentUpon>menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="core\common.cs" />
+    <Compile Include="_first_default.aspx.cs">
+      <DependentUpon>_first_default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_first_default.aspx.designer.cs">
+      <DependentUpon>_first_default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="drawings.aspx.cs">
+      <DependentUpon>drawings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="drawings.aspx.designer.cs">
+      <DependentUpon>drawings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="imprint.aspx.cs">
+      <DependentUpon>imprint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="imprint.aspx.designer.cs">
+      <DependentUpon>imprint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="living_things.aspx.cs">
+      <DependentUpon>living_things.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="living_things.aspx.designer.cs">
+      <DependentUpon>living_things.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="objects.aspx.cs">
+      <DependentUpon>objects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="objects.aspx.designer.cs">
+      <DependentUpon>objects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="overpaintings.aspx.cs">
+      <DependentUpon>overpaintings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="overpaintings.aspx.designer.cs">
+      <DependentUpon>overpaintings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paintings.aspx.cs">
+      <DependentUpon>paintings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paintings.aspx.designer.cs">
+      <DependentUpon>paintings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sculptures.aspx.cs">
+      <DependentUpon>sculptures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sculptures.aspx.designer.cs">
+      <DependentUpon>sculptures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="vitae.aspx.cs">
+      <DependentUpon>vitae.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vitae.aspx.designer.cs">
+      <DependentUpon>vitae.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\wuschel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\nani - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\nani - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\nani.azurewebsite.net.pubxml" />
+    <None Include="Properties\PublishProfiles\nulllogic_nani.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55679</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
