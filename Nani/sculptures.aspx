@@ -18,7 +18,15 @@
             mixed media, 35 x 20 x 17 cm</span>
         
 
-           
+               <span>
+            <asp:Image ID="Image2" ImageUrl="~/images/2014/brain lightweight.JPG" runat="server" /><br />
+            brain lightweight, 2012<br />
+            mixed media, 20 x 15 x 5 cm</span>
+        
+        <%--    <span>
+            <asp:Image ID="Image4" ImageUrl="~/images/2014/brainy frog.JPG" runat="server" /><br />
+            brainy frog, 2013<br />
+            mixed media, 24 x 24 x 10 cm</span>--%>
 
         <%-- <span>
             <asp:Image ID="Image1dd" ImageUrl="~/images/zic_zac.png" runat="server" /><br />

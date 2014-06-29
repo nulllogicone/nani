@@ -20,6 +20,8 @@
                 disc / globe, 2008<br />
                 bronze, iron, 31 x 17 x 10 cm</span>
                 <br />
+        
+      
 
                                 <%-- <span>
             <asp:Image ID="Image3" ImageUrl="~/images/stents.jpg" runat="server" Width="576" Height="768" /><br />

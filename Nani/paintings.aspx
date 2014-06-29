@@ -5,10 +5,31 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2>
-        images</h2>
+        paintings</h2>
     <p>
     </p>
     <div class="canvas">
+        
+                <span>
+            <asp:Image ID="Image3" ImageUrl="~/images/2014/bilder 029.JPG" runat="server" /><br />
+            no title, 2011<br />
+            mixed media, 120 x 180 cm</span>
+        
+                  <span>
+            <asp:Image ID="Image5" ImageUrl="~/images/2014/collagen und bilder 042.JPG" runat="server" /><br />
+            no title, 2011<br />
+            mixed media, 120 x 180 cm</span>
+        
+ <%--                    <span>
+            <asp:Image ID="Image4" ImageUrl="~/images/2014/collagen und bilder 033.JPG" runat="server" /><br />
+            no title, 2013<br />
+            mixed media, 150 x 120 cm</span>
+        
+                <span>
+            <asp:Image ID="Image6" ImageUrl="~/images/2014/brain first.JPG" runat="server" /><br />
+            brain first, 2011<br />
+            mixed media, 150 x 120 cm</span>--%>
+
         <span>
             <asp:Image ID="Image1" ImageUrl="~/images/salamander1.jpg" runat="server" /><br />
             salamander, 2005<br />

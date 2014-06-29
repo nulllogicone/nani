@@ -7,7 +7,16 @@
     <h2>collages</h2>
 
     <div class="canvas">
-
+           <span>
+            <asp:Image ID="Image5" ImageUrl="~/images/2014/LIFE.JPG" runat="server" /><br />
+            LIVE, 2014, vintage and magazine, 30 x 20 cm
+                <br />
+        </span>
+           <span>
+            <asp:Image ID="Image2" ImageUrl="~/images/2014/NO.JPG" runat="server" /><br />
+            NO, 2014, vintage and magazine, 24 x 18 cm
+                <br />
+        </span>
         <span>
             <asp:Image ID="ImageSchreib" ImageUrl="~/images/schreibmaschine.jpg" runat="server" /><br />
             type, 2010, vintage and magazine, 24 x 18 cm
