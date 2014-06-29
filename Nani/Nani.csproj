@@ -65,6 +65,16 @@
     <Content Include="default.aspx" />
     <Content Include="controls\footer.ascx" />
     <Content Include="controls\menu.ascx" />
+    <Content Include="images\2014\bilder 029.JPG" />
+    <Content Include="images\2014\brain first.JPG" />
+    <Content Include="images\2014\brain lightweight.JPG" />
+    <Content Include="images\2014\brainy frog.JPG" />
+    <Content Include="images\2014\collagen und bilder 007.JPG" />
+    <Content Include="images\2014\collagen und bilder 033.JPG" />
+    <Content Include="images\2014\collagen und bilder 042.JPG" />
+    <Content Include="images\2014\LIFE.JPG" />
+    <Content Include="images\2014\NO.JPG" />
+    <Content Include="images\2014\staircase.JPG" />
     <Content Include="images\abstract.jpg" />
     <Content Include="images\arena.jpg" />
     <Content Include="images\balls.jpg" />
@@ -107,6 +117,7 @@
     <Content Include="images\staring.jpg" />
     <Content Include="images\tentative.jpg" />
     <Content Include="images\vu.jpg" />
+    <Content Include="new.aspx" />
     <Content Include="_first_default.aspx" />
     <Content Include="drawings.aspx" />
     <Content Include="images\anima-animal_2.jpg" />
@@ -223,6 +234,13 @@
       <DependentUpon>menu.ascx</DependentUpon>
     </Compile>
     <Compile Include="core\common.cs" />
+    <Compile Include="new.aspx.cs">
+      <DependentUpon>new.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="new.aspx.designer.cs">
+      <DependentUpon>new.aspx</DependentUpon>
+    </Compile>
     <Compile Include="_first_default.aspx.cs">
       <DependentUpon>_first_default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
