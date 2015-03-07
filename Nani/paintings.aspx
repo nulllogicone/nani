@@ -4,23 +4,29 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h2>
-        paintings</h2>
+    <h2>paintings</h2>
     <p>
     </p>
     <div class="canvas">
-        
-                <span>
-            <asp:Image ID="Image3" ImageUrl="~/images/2014/bilder 029.JPG" runat="server" /><br />
-            no title, 2011<br />
-            mixed media, 120 x 180 cm</span>
-        
-                  <span>
+
+        <span>
+            <asp:Image ID="Image1" ImageUrl="~/images/auge.JPG" runat="server" /><br />
+            no title, 2014<br />
+            mixed media, 120 x 150 cm</span>
+
+        <span>
+            <asp:Image ID="Image3" ImageUrl="~/images/xy.JPG" runat="server" /><br />
+            xy, 2014<br />
+            mixed media, 120 x 150 cm</span>
+
+
+
+        <%--<span>
             <asp:Image ID="Image5" ImageUrl="~/images/2014/collagen und bilder 042.JPG" runat="server" /><br />
             no title, 2011<br />
-            mixed media, 120 x 180 cm</span>
-        
- <%--                    <span>
+            mixed media, 120 x 180 cm</span>--%>
+
+        <%--                    <span>
             <asp:Image ID="Image4" ImageUrl="~/images/2014/collagen und bilder 033.JPG" runat="server" /><br />
             no title, 2013<br />
             mixed media, 150 x 120 cm</span>
@@ -30,19 +36,19 @@
             brain first, 2011<br />
             mixed media, 150 x 120 cm</span>--%>
 
-        <span>
+        <%--    <span>
             <asp:Image ID="Image1" ImageUrl="~/images/salamander1.jpg" runat="server" /><br />
             salamander, 2005<br />
-            mixed media on plywood, 130 x 160 cm</span>
-                <span>
+            mixed media on plywood, 130 x 160 cm</span>--%>
+        <%--         <span>
             <asp:Image ID="Image2" ImageUrl="~/images/frau_hase.jpg" runat="server" /><br />
             hare, 2002<br />
-            mixed media on plywood, 132 x 162 cm</span>
-      <%--  <span>
+            mixed media on plywood, 132 x 162 cm</span>--%>
+        <%--  <span>
             <asp:Image ImageUrl="~/images/kluge_lamm.PNG" runat="server" /><br />
             Wise lambkin, 1999<br />
-            mixed media, 130 x 150 cm</span>  --%>          
-          <%--     <span>
+            mixed media, 130 x 150 cm</span>  --%>
+        <%--     <span>
             <asp:Image  ImageUrl="~/images/anima-animal_1.jpg" runat="server" /><br />
             anima-animal, 2011<br />
             mixed media on wooden panel<br />
